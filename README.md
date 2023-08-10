@@ -8,3 +8,5 @@ Para rodar o código basta digitar:
 Caso queira armazenar o resultado e um arquivo de saída basta digitar:
 
 <code> scrapy runspider .\crawling_spider.py -o output.json </code>
+
+A atualização mais recente do código adiciona um arquivo de conexão com o banco de dados, ocultando o login e a senha nas váriaveis de ambiente.
